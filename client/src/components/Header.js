@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 const Header = () => {
     // global state
     let isLogin = useSelector((state) => state.isLogin);
-    isLogin = isLogin || localStorage.getItem("userId");
+    isLogin = isLogin || localStorage.getItem("userId"); 
     const dispatch = useDispatch();
     const navigate = useNavigate();
     //state

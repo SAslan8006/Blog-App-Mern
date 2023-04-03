@@ -1,0 +1,33 @@
+{
+  "name": "blog-app-mern",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/109723263/228845641-dc99f4bd-fc2f-41de-9bc8-d5aa4bb032e6.png)\r ![image](https://user-images.githubusercontent.com/109723263/228845743-4c942c4e-8830-4640-b424-92f89af95bd5.png)\r ![image](https://user-images.githubusercontent.com/109723263/228845868-60745d56-95af-493c-9aaa-e366b8e23f3a.png)\r ![image](https://user-images.githubusercontent.com/109723263/228845945-23d1d23c-d2da-4db8-916b-11fdf32dec06.png)\r ![image](https://user-images.githubusercontent.com/109723263/228846102-34483160-12a9-4541-a374-e9af69133e01.png)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node serevr.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAslan8006/Blog-App-Mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAslan8006/Blog-App-Mern/issues"
+  },
+  "homepage": "https://github.com/SAslan8006/Blog-App-Mern#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0"
+  }
+}
